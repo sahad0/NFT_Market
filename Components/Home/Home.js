@@ -1,11 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function Wow({ connector }) {
-    console.log(connector.accounts[0]);
+export default function Home() {
     return (
         <View>
-            <Text>Wow</Text>
+            <Text>Home</Text>
         </View>
     )
 }
