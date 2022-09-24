@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const val = { theme: "light" }
+
+const val = { theme: "dark" }
 
 
 const themeSlice = createSlice({
@@ -16,3 +17,6 @@ const themeSlice = createSlice({
 export const { themeController } = themeSlice.actions;
 
 export default themeSlice.reducer;
+
+
+
