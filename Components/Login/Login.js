@@ -5,8 +5,6 @@ import { Button, Dimensions, Image, Text, TouchableOpacity, View, StyleSheet, Sa
 import { useDispatch, useSelector } from 'react-redux';
 import lightPic from "../../assets/images/maskLight.png"
 import darkPic from "../../assets/images/mask.png"
-import orange from "../../assets/images/orange.jpg"
-import alien from "../../assets/images/alien.png"
 import gem from "../../assets/images/gem.png"
 
 import { themeController } from '../../features/reduxStore/themeStore';
