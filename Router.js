@@ -4,9 +4,9 @@ import { configureStore } from '@reduxjs/toolkit';
 import { enableScreens } from 'react-native-screens';
 import { createSharedElementStackNavigator } from 'react-navigation-shared-element';
 import { Provider } from 'react-redux';
-import Home from './Components/Home/Home';
-import Login from './Components/Login/Login';
+import WalletLogin from './Components/Auth/WalletLogin';
 import themeReducer from "./features/reduxStore/themeStore"
+import Login from './screens/WalletAuth/Login';
 
 
 const Stack = createStackNavigator();
@@ -28,7 +28,6 @@ const Router = () => {
             <NavigationContainer>
                 <Stack.Navigator initialRouteName='Login' screenOptions={{ headerShown: false, }} >
                     <Stack.Screen name="Login" component={Login} />
-                    <Stack.Screen name="Home" component={Home} />
 
                 </Stack.Navigator>
             </NavigationContainer>

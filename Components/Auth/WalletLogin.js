@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useWalletConnect, withWalletConnect } from '@walletconnect/react-native-dapp';
 import * as React from 'react';
-import { Button, Dimensions, Image, Text, TouchableOpacity, View, StyleSheet, SafeAreaView } from 'react-native';
+import { Button, Dimensions, Image, Text, TouchableOpacity, View, StyleSheet, SafeAreaView, StatusBar } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import lightPic from "../../assets/images/maskLight.png"
 import darkPic from "../../assets/images/mask.png"
@@ -10,7 +10,7 @@ import gem from "../../assets/images/gem.png"
 import { themeController } from '../../features/reduxStore/themeStore';
 
 
-function Login() {
+function WalletLogin() {
 
 
     const connector = useWalletConnect();
@@ -26,9 +26,11 @@ function Login() {
 
         return (
             <SafeAreaView style={{ display: 'flex', flex: 1, backgroundColor: theme === "dark" ? "black" : "white" }}>
+                <StatusBar hidden barStyle={theme === "dark" ? "light-content" : "dark-content"} />
 
                 <View >
                     <Text style={{ fontFamily: "monster", color: theme !== "dark" ? "black" : "white", fontSize: height * 0.15, top: height * 0.01, letterSpacing: height * 0.005, position: "absolute" }}> NFT </Text>
+                    <Text style={{ fontFamily: "monster", color: theme !== "dark" ? "black" : "white", fontSize: height * 0.12, top: height * 0.2, position: "absolute" }}>  MARKET</Text>
                     <Text style={{ fontFamily: "monster", color: theme !== "dark" ? "black" : "white", fontSize: height * 0.12, top: height * 0.2, position: "absolute" }}>  MARKET</Text>
 
 
@@ -62,7 +64,7 @@ function Login() {
     );
 }
 
-export default withWalletConnect(Login, {
+export default withWalletConnect(WalletLogin, {
     redirectUrl: Platform.OS === 'web' ? window.location.origin : 'yourappscheme://',
     storageOptions: {
         asyncStorage: AsyncStorage,
