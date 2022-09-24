@@ -45,9 +45,9 @@ function Login() {
                     <View style={[StyleSheet.absoluteFillObject]}><Image source={require("../../assets/images/alien.png")} resizeMode={"center"} style={{ height: height, width: width }} /></View>
 
 
-                    <TouchableOpacity onPress={() => { dispatch(themeController()) }}><Text style={{ color: theme === "dark" ? "white" : "black" }}>Dark</Text></TouchableOpacity>
+                    <TouchableOpacity style={{ position: "absolute" }} onPress={() => { dispatch(themeController()) }}><Text style={{ color: theme === "dark" ? "white" : "black" }}>Dark</Text></TouchableOpacity>
 
-                    <View style={{ top: height * 0.73, width: width * 0.8, alignSelf: "center", backgroundColor: theme === "dark" ? "black" : "white", justifyContent: "center", alignItems: "center", }}>
+                    <View style={{ top: height * 0.78, width: width * 0.8, alignSelf: "center", backgroundColor: theme === "dark" ? "black" : "white", justifyContent: "center", alignItems: "center", }}>
                         <TouchableOpacity onPress={() => { connector.connect() }} style={{ backgroundColor: theme === "dark" ? "black" : "white", width: width * 0.9, height: height * 0.08, justifyContent: "center", alignItems: "center", elevation: 10 }}><Image source={theme === "dark" ? darkPic : lightPic} resizeMode={"contain"} style={{ height: height * 0.06, width: width * 0.8, }} /></TouchableOpacity>
 
                     </View>
