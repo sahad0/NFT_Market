@@ -9,7 +9,7 @@ import orange from "../../assets/images/orange.jpg"
 import alien from "../../assets/images/alien.png"
 import gem from "../../assets/images/gem.png"
 
-import { themeController } from '../../features/reduxStore/store';
+import { themeController } from '../../features/reduxStore/themeStore';
 
 
 function Login() {

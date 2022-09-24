@@ -6,7 +6,7 @@ import { createSharedElementStackNavigator } from 'react-navigation-shared-eleme
 import { Provider } from 'react-redux';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
-import themeReducer from "./features/reduxStore/store"
+import themeReducer from "./features/reduxStore/themeStore"
 
 
 const Stack = createStackNavigator();
