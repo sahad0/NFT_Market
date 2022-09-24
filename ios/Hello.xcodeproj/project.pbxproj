@@ -27,8 +27,12 @@
 		F649400477C94F4CA122D454 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91788CDAA7004EE7A6617A71 /* Roboto-Thin.ttf */; };
 		EA1158FB1A984F969538810F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEE069C821C946D499E11EF5 /* Roboto-ThinItalic.ttf */; };
 		5DC9021D945643FFA8109D46 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 217DCA73C0E047908EA11AE2 /* LICENSE.txt */; };
-		11937100C26C4F4FB51F0EA8 /* alien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74052E77A9204FAB90F077F1 /* alien.jpg */; };
-		D43B07D84C4F408BA04D1596 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = E282422D94CF4D9593B1C994 /* mask.png */; };
+		04159D10629D4B90A64CC5F3 /* monster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1608E0308E84FB094E91EDC /* monster.ttf */; };
+		9A7F485E35014F4F9464C76B /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA4B2099E55445E8BE47D8F /* alien.png */; };
+		EF22C45B6D7445EABE517B4D /* gem.png in Resources */ = {isa = PBXBuildFile; fileRef = 84137535900642A6879B664F /* gem.png */; };
+		DCE8915F0CC24D248CA9C01B /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = DDABEA2C1B0B4C6E89B913C6 /* mask.png */; };
+		82135E1679C249A0AFE5BD85 /* maskLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA7E91EF31E4AACAB75A7ED /* maskLight.png */; };
+		564083A7314C4F58A178BB05 /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683F9FD6410644FB847597B5 /* orange.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +76,12 @@
 		91788CDAA7004EE7A6617A71 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		EEE069C821C946D499E11EF5 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		217DCA73C0E047908EA11AE2 /* LICENSE.txt */ = {isa = PBXFileReference; name = "LICENSE.txt"; path = "../assets/fonts/LICENSE.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		74052E77A9204FAB90F077F1 /* alien.jpg */ = {isa = PBXFileReference; name = "alien.jpg"; path = "../assets/images/alien.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E282422D94CF4D9593B1C994 /* mask.png */ = {isa = PBXFileReference; name = "mask.png"; path = "../assets/images/mask.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1608E0308E84FB094E91EDC /* monster.ttf */ = {isa = PBXFileReference; name = "monster.ttf"; path = "../assets/fonts/monster.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EA4B2099E55445E8BE47D8F /* alien.png */ = {isa = PBXFileReference; name = "alien.png"; path = "../assets/images/alien.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84137535900642A6879B664F /* gem.png */ = {isa = PBXFileReference; name = "gem.png"; path = "../assets/images/gem.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDABEA2C1B0B4C6E89B913C6 /* mask.png */ = {isa = PBXFileReference; name = "mask.png"; path = "../assets/images/mask.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AA7E91EF31E4AACAB75A7ED /* maskLight.png */ = {isa = PBXFileReference; name = "maskLight.png"; path = "../assets/images/maskLight.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		683F9FD6410644FB847597B5 /* orange.jpg */ = {isa = PBXFileReference; name = "orange.jpg"; path = "../assets/images/orange.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +203,12 @@
 				91788CDAA7004EE7A6617A71 /* Roboto-Thin.ttf */,
 				EEE069C821C946D499E11EF5 /* Roboto-ThinItalic.ttf */,
 				217DCA73C0E047908EA11AE2 /* LICENSE.txt */,
-				74052E77A9204FAB90F077F1 /* alien.jpg */,
-				E282422D94CF4D9593B1C994 /* mask.png */,
+				D1608E0308E84FB094E91EDC /* monster.ttf */,
+				3EA4B2099E55445E8BE47D8F /* alien.png */,
+				84137535900642A6879B664F /* gem.png */,
+				DDABEA2C1B0B4C6E89B913C6 /* mask.png */,
+				6AA7E91EF31E4AACAB75A7ED /* maskLight.png */,
+				683F9FD6410644FB847597B5 /* orange.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -311,8 +323,12 @@
 				F649400477C94F4CA122D454 /* Roboto-Thin.ttf in Resources */,
 				EA1158FB1A984F969538810F /* Roboto-ThinItalic.ttf in Resources */,
 				5DC9021D945643FFA8109D46 /* LICENSE.txt in Resources */,
-				11937100C26C4F4FB51F0EA8 /* alien.jpg in Resources */,
-				D43B07D84C4F408BA04D1596 /* mask.png in Resources */,
+				04159D10629D4B90A64CC5F3 /* monster.ttf in Resources */,
+				9A7F485E35014F4F9464C76B /* alien.png in Resources */,
+				EF22C45B6D7445EABE517B4D /* gem.png in Resources */,
+				DCE8915F0CC24D248CA9C01B /* mask.png in Resources */,
+				82135E1679C249A0AFE5BD85 /* maskLight.png in Resources */,
+				564083A7314C4F58A178BB05 /* orange.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

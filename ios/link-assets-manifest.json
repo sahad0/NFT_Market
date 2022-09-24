@@ -54,12 +54,28 @@
       "sha1": "cc79d5a23bd0ec08b1d99f5390bf33cacc3082f4"
     },
     {
-      "path": "assets/images/alien.jpg",
-      "sha1": "c94103cee955c489414fbc914b3a90d5ef6c965e"
+      "path": "assets/fonts/monster.ttf",
+      "sha1": "49243712633711db3b673d0b03536e0180cd7ddb"
+    },
+    {
+      "path": "assets/images/alien.png",
+      "sha1": "a0fef3aa03d81a25e71698491cd1c18f92a90f1c"
+    },
+    {
+      "path": "assets/images/gem.png",
+      "sha1": "4efa0ecf35dd5d5a177deabef10b87dc204bd738"
     },
     {
       "path": "assets/images/mask.png",
-      "sha1": "92d21a0165401e689c7c58151d716631dc45b4b8"
+      "sha1": "44042ce5b547368e4ae832121692a39659c6272e"
+    },
+    {
+      "path": "assets/images/maskLight.png",
+      "sha1": "6b6fcd0ad21714435e0039d8d73deb4ff1c9ce47"
+    },
+    {
+      "path": "assets/images/orange.jpg",
+      "sha1": "cc6027a67da1c73e01e0bbdeac51bdc30c03dfbd"
     }
   ]
 }
